@@ -77,3 +77,5 @@ class Teststepen2(unittest.TestCase):
         a = 4.5;
         b =1.5
         self.assertEqual(stepen(a , b), 9.54594154601839)
+if __name__ == "__main__":
+    unittest.main()
